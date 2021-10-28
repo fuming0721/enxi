@@ -1,0 +1,378 @@
+$color_blue = #2944C7  // 主要背景颜色
+$viewBg = #fff // tabbar 背景颜色
+$pageBg = #F3F3FD // 页面背景颜色
+$textColor = #666666 // 主要字体颜色
+$color_orange = #FF6B31 // 字体颜色
+$color_green = #2EBD89
+
+#app[data-theme='white']
+  [class*=van-hairline]::after
+    border-color #e5e5e5
+
+  .resCheckBox
+    .van-icon
+      color $viewBg
+
+  .BWColor
+    color #333
+
+  .resText
+    color $color_blue
+
+  .resText2
+    color $color_orange
+
+  .resBg
+    background-color $color_blue
+    color $viewBg
+
+  .swiper
+    background-color $viewBg
+
+  .resView
+    background-color $viewBg 
+
+  .van-field--label-top
+
+    .van-field__control
+      color #000 !important
+
+    .van-field__body
+      border-color #e5e5e5
+
+  .loading_circle
+    border-color $color_blue
+    border-right-color transparent
+
+  .tabs
+    border-color #e5e5e5
+    .van-tabs__nav
+      background-color $viewBg
+
+  .van-button
+    &--res
+      background-color $color_blue
+      color $viewBg
+    &--plain
+      background-color #E7EBFF
+      color $color_blue
+      border-color $color_blue 
+
+    &--plainGreen
+      background-color #F6FFFC
+      color $color_green
+      border-color $color_green
+
+
+  .van-field__control
+    color $color_blue
+    &::placeholder
+      color #bbb
+      
+  .eButton
+    border-color $color_blue
+
+    &.active
+      background-color $color_blue
+      color $viewBg
+
+  .iconChange
+    color $color_blue
+
+  .van-nav-bar
+    background-color $viewBg
+
+    .van-nav-bar__left>i
+    .van-nav-bar__title
+      color #333 !important
+
+  .pannelView
+    background-color $viewBg
+
+  .body
+    background-color $pageBg
+
+  .home
+    background-color $pageBg
+    &_topBg
+      background-color $color_blue
+
+    &_view
+      background-color $viewBg
+
+    .view_head
+      &_line
+        background-color $color_blue
+      &_title
+        color #000
+    
+    .view_content
+      .label
+        color $textColor
+      .num
+        color $color_blue
+
+  .tabbar
+    .van-tabbar
+    .van-tabbar-item
+      background-color $viewBg !important
+
+  .iconLink
+    &_text
+      color $textColor
+
+  .border_color
+    border-color #E5E5E5
+
+  .login,
+  .reset,
+  .register
+    background-color $viewBg
+
+  .loginForm,
+  .resetForm
+    &_item
+      border-color #F4F4F4
+
+    .van-field__control
+      color #333 !important
+      
+      &.isSelect
+        .van-checkbox__label
+          color $color_blue
+
+  .sNav
+    &_view
+      background-color $viewBg
+
+    &_item
+      &.active
+        border-color $color_blue
+        span
+          color #000
+
+  .goods
+    background-color $viewBg
+
+    &_title
+      color #000
+
+    &_view
+      .value
+        color #333
+
+      .money
+        color $color_orange
+
+    .num
+      color #333
+
+    &_bottom
+      border-color #E5E5E5
+
+      .ratio
+        color $color_blue
+    
+  .market
+    &_help
+      color $color_blue
+    &_main
+      background-color $pageBg
+
+    &Detail
+      background-color $pageBg
+
+      &_navBar
+        background-color $color_blue
+
+      .title
+        color #000
+
+      .pannel_name
+        color #333
+
+  .earnings
+    background-color $pageBg
+
+    &_item
+      background-color $viewBg
+
+      &_head
+       color #333
+
+      &_body
+        border-color #E5E5E5
+
+        .item
+          &_label
+            color #666
+
+          &_value
+            color #333
+
+          &_text
+            color $color_orange
+      
+      &_content
+        .van-cell
+          background-color $viewBg
+          &::after
+            border-color $pageBg
+        .van-collapse-item__content
+          background-color $viewBg
+
+        &_list
+          .item
+            border-color #e5e5e5
+          .date
+          .type
+            color #666
+          .count
+            color $color_orange
+
+  .my
+    background-image url('/static/imgs/my_bg_white.png')
+    background-color $pageBg
+
+    &_title
+      color #000
+
+    &_view_body_item
+      border-color #e5e5e5
+
+    &_info
+      &_name > span
+      &_tel
+        color $viewBg
+    
+    &_body
+      &_data_item
+        border-color #e5e5e5
+        .money
+          color $color_blue
+        .sub
+          color #000
+
+  .withdrawForm
+    .label
+      color #333
+
+    .count
+      color $color_orange
+
+    .res
+    .button
+      color $color_blue
+
+  .withdrawItem
+    &_bottom
+      border-color #e5e5e5
+    .error
+      color #F220A0
+    .name
+      color #333
+    .count
+      color $color_orange
+
+  .recharge
+    .label
+    .address
+      color #333
+  
+  .wallet
+    .title
+      color #333
+
+  .walletItem
+    &_name
+      color $color_blue
+
+    &_count
+      color #333
+
+    &_bottom_item
+      .count
+        color $color_blue
+  
+  .token
+    color #333
+
+    &_data
+      border-color $pageBg
+
+    &_info
+      background-color $viewBg
+
+      &_title
+        color #333
+
+      .num
+        color $color_orange
+    
+    &_btns
+      background-color $viewBg
+  
+  .calculate
+    .nav
+      border-color #e5e5e5
+  
+  .calculateItem
+    &_head
+      &_top
+        .title
+          color #333
+        .data
+          color $color_orange
+      &_bottom
+        span 
+          color #333
+
+    &_mid
+      border-color #E5E5E5
+
+      &_item
+        .num
+          color #333
+
+  .noticeItem
+    .title
+      color #333
+
+  .sCell
+    background-color $viewBg
+    border-color #e5e5e5
+
+    &:active
+      background-color #f2f2f2
+
+    .title
+      color #333
+
+    .notLink
+      color #333
+
+  .register
+    .register_nav_item.active
+      color $color_blue
+      border-color $color_blue
+
+  .noticeDetail
+    &_title
+      color $color_blue
+    
+    &_content
+      color #333
+
+  .order
+    &_view
+      &_item
+        .value
+          color #333
+
+      &_payType
+        border-color $pageBg
+      
+    &_info
+      background-color #EEF1FF
+      border-color #798DEE
+      color #6175D7

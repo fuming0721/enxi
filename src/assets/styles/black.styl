@@ -1,0 +1,378 @@
+$baseBgColor = #171E28
+$viewBg = #1F282F
+$pageBg = #2B323C
+$textColor = #aaa
+$color_yellow = #F9CE31
+$color_green = #2EBD89
+
+#app[data-theme='black']
+  [class*=van-hairline]::after
+    border-color $pageBg
+
+  .van-picker
+    .van-picker__frame::after
+      border-color #e5e5e5 !important
+
+  .resCheckBox
+    .van-icon
+      color $viewBg
+
+  .BWColor
+    color #fff
+
+  .resText
+    color $color_yellow
+  
+  .resText2
+    color $color_green
+
+  .resBg
+    background-color $color_yellow
+    color $viewBg
+
+  .swiper
+    background-color $viewBg
+
+  .resView
+    background-color $baseBgColor 
+
+  .van-field--label-top
+
+    .van-field__control
+      color #fff !important
+
+    .van-field__body
+      border-color $pageBg
+
+  .loading_circle
+    border-color $color_yellow
+    border-right-color transparent
+
+  .tabs
+    border-color $pageBg
+    .van-tabs__nav
+      background-color $baseBgColor
+
+  .van-button
+    &--res
+    &--plain
+      background-color $color_yellow
+      color #000
+      border-color $color_yellow
+    
+    &--plainGreen
+      background-color $color_green
+      color #000
+      border-color $color_green
+
+  .van-field__control
+    color $color_green
+    &::placeholder
+      color #666
+
+  .eButton
+    border-color $color_yellow
+
+    &.active
+      background-color $color_yellow
+      color #333
+
+  .iconChange
+    color $color_yellow
+
+  .van-nav-bar
+    background-color $baseBgColor
+
+    .van-nav-bar__left>i
+    .van-nav-bar__title
+      color #fff
+
+  .pannelView
+    background-color $viewBg
+
+  .body
+    background-color $pageBg
+
+  .home
+    background-color $pageBg
+    &_topBg
+      background-color $baseBgColor
+
+    &_view
+      background-color $viewBg
+
+    .view_head
+      &_line
+        background-color $color_yellow
+      &_title
+        color #fff
+
+    .view_content
+      .label
+        color $textColor
+      .num
+        color $color_green
+    
+  .tabbar
+    .van-tabbar
+    .van-tabbar-item
+      background-color $viewBg !important
+
+  .iconLink
+    &_text
+      color $textColor
+
+  .border_color
+    border-color $pageBg
+
+  .login,
+  .reset
+  .register
+    background-color $viewBg
+
+  .loginForm,
+  .resetForm
+    &_item
+      border-color $pageBg
+
+    .van-field__control
+      color #bbb !important
+      
+      &.isSelect
+        .van-checkbox__label
+          color $color_yellow
+
+  .sNav
+    &_view
+      background-color $baseBgColor
+
+    &_item
+      &.active
+        border-color $color_yellow
+        span
+          color #fff
+  
+  .goods
+    background-color $viewBg
+
+    &_title
+      color #fff
+
+    &_view
+      .value
+        color #bbb
+
+      .money
+        color $color_green
+
+    .num
+      color #bbb
+
+    &_bottom
+      border-color $pageBg
+
+      .ratio
+        color $color_green
+
+  .market
+    &_help
+      color $color_yellow
+    &_main
+      background-color $pageBg
+
+    &Detail
+      background-color $pageBg
+
+      &_navBar
+        background-color $baseBgColor
+
+      .title
+        color #fff
+      
+      .pannel_name
+        color #fff
+
+  .earnings
+    background-color $pageBg
+
+    &_item
+      background-color $viewBg
+
+      &_head
+       color #fff
+
+      &_body
+        border-color $pageBg
+
+        .item
+          &_label
+            color #999
+          
+          &_value
+            color #FFF
+
+          &_text
+            color $color_green
+      
+      &_content
+        .van-cell
+          background-color $viewBg
+          &::after
+            border-color $pageBg
+        .van-collapse-item__content
+          background-color $viewBg
+
+        &_list
+          .item
+            border-color $pageBg
+          .date
+          .type
+            color #999
+          .count
+            color $color_green
+  .my
+    background-image url('/static/imgs/my_bg_black.png')
+    background-color $pageBg
+
+    &_title
+      color #fff
+
+    &_view_body_item
+      border-color #504d4d
+
+    &_info
+      &_name > span
+      &_tel
+        color #aaa
+
+    &_body
+      &_data_item
+        border-color #504d4d
+        .money
+          color $color_green
+        .sub
+          color #aaa
+
+  .withdrawForm
+    .label
+      color #fff
+      
+    .count
+      color $color_green
+    
+    .res
+    .button
+      color $color_yellow
+
+  .withdrawItem
+    &_bottom
+      border-color #373F49
+    .error
+      color #C90055
+    .name
+      color #fff
+    .count
+      color $color_green
+
+  .recharge
+    .label
+    .address
+      color #fff
+
+  .wallet
+    .title
+      color #fff
+  
+  .walletItem
+    &_name
+      color #fff
+
+    &_count
+      color #aaa
+
+    &_bottom_item
+      .count
+        color $color_green
+  
+  .token
+    color #fff
+
+    &_data
+      border-color $pageBg
+
+    &_info
+      background-color $viewBg
+
+      &_title
+        color #fff
+
+      .num
+        color $color_green
+
+    &_btns
+      background-color $baseBgColor
+
+  .calculate
+    .nav
+      border-color $pageBg
+
+  .calculateItem
+    &_head
+      &_top
+        .title
+          color #fff
+        .data
+          color $color_green
+      &_bottom
+        span 
+          color #ddd
+
+    &_mid
+      border-color $pageBg
+
+      &_item
+        .num
+          color #fff
+  
+  .noticeItem
+    .title
+      color #fff
+
+  .sCell
+    background-color $viewBg
+    border-color $pageBg
+
+    &:active
+      background-color #1f2938
+
+    .title
+      color #fff
+
+    .notLink
+      color #999
+
+  .register
+    .register_nav_item.active
+      color $color_yellow 
+      border-color $color_yellow 
+      
+  .noticeDetail
+    &_title
+      color $color_yellow
+    
+    &_content
+      color #fff
+
+  .order
+    &_view
+      &_item
+        .value
+          color #bbb
+
+      &_payType
+        border-color $viewBg
+
+    &_info
+      background-color #283844
+      border-color #32546E
+      color $color_yellow
